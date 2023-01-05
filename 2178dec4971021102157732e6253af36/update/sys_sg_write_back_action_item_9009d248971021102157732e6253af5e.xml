@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit (Task)</name>
+        <parameter_screen/>
+        <query_condition table="task">sys_idSTARTSWITH{{Task sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Task sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-05 09:29:33</sys_created_on>
+        <sys_id>9009d248971021102157732e6253af5e</sys_id>
+        <sys_name>Edit (Task)</sys_name>
+        <sys_package display_value="ServiceNow Demo" source="x_26654_servicenow">2178dec4971021102157732e6253af36</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow Demo">2178dec4971021102157732e6253af36</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_9009d248971021102157732e6253af5e</sys_update_name>
+        <table>task</table>
+        <template>priority={{Task priority}}^state={{Task state}}^short_description={{Task short_description}}^description={{Task description}}^assigned_to={{Task assigned_to}}^assignment_group={{Task assignment_group}}^company={{Task company}}^location={{Task location}}^cmdb_ci={{Task cmdb_ci}}^business_service={{Task business_service}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=9009d248971021102157732e6253af5e"/>
+</record_update>

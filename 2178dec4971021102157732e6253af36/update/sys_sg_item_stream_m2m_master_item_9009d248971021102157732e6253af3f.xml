@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Task Item Stream">9809d248971021102157732e6253af3d</item_stream>
+        <master_item display_value="Task master_item">1809d248971021102157732e6253af3e</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-05 09:29:33</sys_created_on>
+        <sys_id>9009d248971021102157732e6253af3f</sys_id>
+        <sys_name/>
+        <sys_package display_value="ServiceNow Demo" source="x_26654_servicenow">2178dec4971021102157732e6253af36</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow Demo">2178dec4971021102157732e6253af36</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_9009d248971021102157732e6253af3f</sys_update_name>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

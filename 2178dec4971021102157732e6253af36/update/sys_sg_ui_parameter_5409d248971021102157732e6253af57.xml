@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Task)">1409d248971021102157732e6253af54</button>
+        <button_parent_table>task</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>source_field</default_value_type>
+        <field_name>location</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>list</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Location</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-05 09:29:33</sys_created_on>
+        <sys_id>5409d248971021102157732e6253af57</sys_id>
+        <sys_name>Location</sys_name>
+        <sys_package display_value="ServiceNow Demo" source="x_26654_servicenow">2178dec4971021102157732e6253af36</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow Demo">2178dec4971021102157732e6253af36</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_5409d248971021102157732e6253af57</sys_update_name>
+        <table_name>task</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="delete_multiple" query="documentkey=5409d248971021102157732e6253af57"/>
+</record_update>
